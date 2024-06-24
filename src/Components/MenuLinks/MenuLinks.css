@@ -1,0 +1,14 @@
+.menuDiv {
+    display: none;
+    z-index: 5;
+}
+
+.headersAll {
+    color: #231656;
+}
+
+@media screen and (max-width: 600px) {
+    .menuDiv {
+        display: block;
+    }
+}

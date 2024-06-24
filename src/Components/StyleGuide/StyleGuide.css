@@ -1,0 +1,135 @@
+.styleGuide {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.colorDiv {
+    display: grid;
+    grid-template-columns: repeat(3, 230px);
+    grid-template-rows: repeat(2,300px);
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.title {
+    color: #231656;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.paragraph p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #4E4E4E;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list ul li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 51.93px;
+    color: #4E4E4E;
+}
+
+.list ol li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 51.93px;
+    color: #4E4E4E;
+}
+
+.blockquote {
+    border-left: 10px solid #8A6FFD;
+    background-color: #F8F8F8;
+    padding: 50px;
+}
+
+.blockquote p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: #4E4E4E;
+}
+
+.buttonsDiv {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, 50%);
+    row-gap: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .colorDiv {
+        grid-template-columns: repeat(2, 220px);
+        grid-template-rows: repeat(2,280px);
+    }
+    .list {
+        gap: 15px;
+    }
+    .list ul li {
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .list ol li {
+        font-size: 15px;
+        line-height: 40px;
+    }
+    .blockquote p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .colorDiv {
+        grid-template-columns: repeat(2, 200px);
+        grid-template-rows: repeat(3,250px);
+    }
+    .paragraph p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .list {
+        gap: 10px;
+    }
+    .list ul li {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .list ol li {
+        font-size: 12px;
+        line-height: 30px;
+    }
+    .blockquote p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .colorDiv {
+        grid-template-columns: repeat(2, 140px);
+        grid-template-rows: repeat(3,180px);
+    }
+    .paragraph p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .blockquote p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}

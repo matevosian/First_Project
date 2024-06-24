@@ -1,0 +1,219 @@
+.homeSeventhSection {
+    width: 100%;
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+.homeSeventhSection h2 {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 55.66px;
+    color: #FFFFFF;
+}
+
+.homeSeventhSection p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+.homeSeventhSectionFirst {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.homeSeventhSectionFirstChild {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: (3, auto);
+}
+
+.homeSeventhSectionSecond {
+    position: relative;
+    height: 400px;
+    width: 50%;
+}
+
+.blackCard {
+    width: 80%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    filter: drop-shadow(10px 10px 10px  lightpink);
+    transition: .5s;
+    cursor: grab;
+}
+
+.pinkCard {
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transition: .5s;
+    cursor: grab;
+}
+
+.blackCard:hover, .pinkCard:hover {
+    transform: scale(.9);
+}
+
+@media screen and (max-width: 1400px) {
+    .homeSeventhSection {
+        width: 100%;
+        padding: 100px 200px;
+    }
+    .homeSeventhSection h2 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .homeSeventhSection p {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .homeSeventhSectionFirstChild {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: (3, auto);
+    } 
+    .blackCard {
+        width: 80%;
+    }
+    .pinkCard {
+        width: 80%;
+        top: 40%;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .homeSeventhSection {
+        width: 100%;
+        padding: 80px 160px;
+    }
+    .homeSeventhSection h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .homeSeventhSection p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .homeSeventhSectionFirstChild {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        grid-template-rows: (3, auto);
+    } 
+    .blackCard {
+        width: 85%;
+        top: 10%;
+    }
+    .pinkCard {
+        width: 85%;
+        top: 50%;
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .homeSeventhSection {
+        width: 100%;
+        padding: 80px 160px;
+    }
+    .homeSeventhSection h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .homeSeventhSection p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .homeSeventhSectionFirstChild {
+        display: flex;
+        flex-direction: column;
+    } 
+    .blackCard {
+        width: 90%;
+        top: 20%;
+    }
+    .pinkCard {
+        width: 90%;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .homeSeventhSection {
+        width: 100%;
+        padding: 40px 100px;
+        flex-direction: column;
+    }
+    .homeSeventhSection h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .homeSeventhSection p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .homeSeventhSectionFirstChild {
+        display: flex;
+        flex-direction: column;
+    } 
+    .homeSeventhSectionSecond {
+        position: relative;
+        height: 400px;
+        width: 100%;
+    }
+    .blackCard {
+        width: 65%;
+        left: 0%;
+        top: 20%;
+    }
+    .pinkCard {
+        width: 60%;
+        top: 40%;
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .homeSeventhSection {
+        width: 100%;
+        padding: 0px 20px;
+        flex-direction: column;
+    }
+    .homeSeventhSection h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .homeSeventhSection p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .homeSeventhSectionFirstChild {
+        display: flex;
+        flex-direction: column;
+    } 
+    .homeSeventhSectionSecond {
+        position: relative;
+        height: 400px;
+        width: 80%;
+    }
+    .blackCard {
+        width: 65%;
+        left: 0%;
+        top: 20%;
+    }
+    .pinkCard {
+        width: 60%;
+        top: 40%;
+        left: 35%;
+    }
+}

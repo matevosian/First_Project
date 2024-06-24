@@ -1,0 +1,98 @@
+.homeFourthSection {
+    width: 80%;
+    height: 1800px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 200px 10px;
+    gap: 50px;
+}
+
+.secondBackground {
+    width: 100%;
+    position: absolute;
+}
+
+.homeFourthSection h2 {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 55.66px;
+    text-align: center;
+    color: #3D3269;
+    position: relative;
+    z-index: 1;
+}
+
+.whiteSpan {
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1200px) {
+    .homeFourthSection {
+        padding: 150px 10px;
+        height: 1400px;
+        gap: 30px;
+    }
+    .secondBackground {
+        width: 100%;
+        height: 1400px;
+        position: absolute;
+    }
+    .homeFourthSection h2 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .homeFourthSection {
+        padding: 100px 10px;
+        height: 1200px;
+        gap: 30px;
+    }
+    .secondBackground {
+        width: 100%;
+        height: 1200px;
+        position: absolute;
+    }
+    .homeFourthSection h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .homeFourthSection {
+        padding: 50px 10px;
+        height: 1000px;
+        gap: 20px;
+    }
+    .secondBackground {
+        width: 100%;
+        height: 1000px;
+        position: absolute;
+    }
+    .homeFourthSection h2 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homeFourthSection {
+        padding: 20px 10px;
+        height: 900px;
+        gap: 10px;
+    }
+    .secondBackground {
+        width: 100%;
+        height: 900px;
+        position: absolute;
+    }
+    .homeFourthSection h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+}

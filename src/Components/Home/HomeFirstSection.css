@@ -1,0 +1,514 @@
+.homeFirstSection {
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeFirstSectionFirstDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 200px 500px 200px;
+    z-index: 5;
+    position: relative;
+    gap: 20px;
+}
+
+.homeFirstSectionFirstBackground {
+    width: 100%;
+    position: absolute;
+}
+
+.homeFirstSectionFirstDiv h1 {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 93.36px;
+    color: #231656;
+    text-align: center;
+}
+
+.homeFirstSectionFirstDiv p {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: center;
+    color: #231656;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.homeFirstSectionSecondDiv {
+    width: 100%;
+    height: 900px;
+    padding: 200px 100px;
+    background-color: #F5F5F5;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.firstPhone {
+    width: 40%;
+    position: absolute;
+    bottom: 25%;
+    left: 30%;
+}
+
+.moneyIcon {
+    width: 230px;
+    height: 220px;
+    position: absolute;
+    left: 10%;
+    bottom: 60%;
+}
+
+.cardIcon {
+    width: 210px;
+    height: 230px;
+    position: absolute;
+    right: 10%;
+    bottom: 50%;
+}
+
+.messegeIcon {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 15%;
+    bottom: 40%;
+}
+
+@media screen and (max-width: 1400px) {
+    .homeFirstSectionFirstDiv h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .homeFirstSectionFirstDiv p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .homeFirstSectionSecondDiv {
+        width: 100%;
+        height: 700px;
+        align-items: end;
+    }
+    .firstPhone {
+        width: 30%;
+        position: absolute;
+        bottom: 35%;
+        left: 35%;
+    }
+    .moneyIcon {
+        width: 180px;
+        height: 160px;
+        position: absolute;
+        left: 6%;
+        bottom: 65%;
+    }
+    .cardIcon {
+        width: 140px;
+        height: 160px;
+        position: absolute;
+        right: 6%;
+        bottom: 55%;
+    }
+    .messegeIcon {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 15%;
+        bottom: 45%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .homeFirstSectionFirstDiv h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .homeFirstSectionFirstDiv p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .homeFirstSectionSecondDiv {
+        width: 100%;
+        height: 700px;
+        align-items: end;
+    }
+    .firstPhone {
+        width: 360px;
+        position: absolute;
+        bottom: 35%;
+        left: 35%;
+    }
+    .moneyIcon {
+        width: 180px;
+        height: 160px;
+        position: absolute;
+        left: 6%;
+        bottom: 65%;
+    }
+    .cardIcon {
+        width: 140px;
+        height: 160px;
+        position: absolute;
+        right: 6%;
+        bottom: 55%;
+    }
+    .messegeIcon {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        left: 15%;
+        bottom: 45%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .homeFirstSectionFirstDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 180px 380px 180px;
+        z-index: 5;
+        position: relative;
+        gap: 20px;
+    }
+    .homeFirstSectionFirstDiv h1 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .homeFirstSectionFirstDiv p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .homeFirstSectionSecondDiv {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, auto);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .moneysDiv {
+        grid-column: span 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .firstPhone {
+        width: 330px;
+        position: absolute;
+        bottom: 40%;
+        left: 35%;
+    }
+    .moneyIcon {
+        width: 150px;
+        height: 140px;
+        position: absolute;
+        left: 6%;
+        bottom: 65%;
+    }
+    .cardIcon {
+        width: 120px;
+        height: 140px;
+        position: absolute;
+        right: 6%;
+        bottom: 55%;
+    }
+    .messegeIcon {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        left: 15%;
+        bottom: 45%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .homeFirstSectionFirstDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 140px 300px 140px;
+        z-index: 5;
+        position: relative;
+        gap: 20px;
+    }
+    .homeFirstSectionFirstDiv h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .homeFirstSectionFirstDiv p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .homeFirstSectionSecondDiv {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, auto);
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .moneysDiv {
+        grid-column: span 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .firstPhone {
+        width: 300px;
+        position: absolute;
+        bottom: 38%;
+        left: 32%;
+    }
+    .moneyIcon {
+        width: 120px;
+        height: 110px;
+        position: absolute;
+        left: 6%;
+        bottom: 65%;
+    }
+    .cardIcon {
+        width: 100px;
+        height: 120px;
+        position: absolute;
+        right: 6%;
+        bottom: 55%;
+    }
+    .messegeIcon {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        left: 15%;
+        bottom: 45%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .homeFirstSectionFirstDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 120px 300px 120px;
+        z-index: 5;
+        position: relative;
+        gap: 20px;
+    }
+    .homeFirstSectionFirstDiv h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .homeFirstSectionFirstDiv p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .homeFirstSectionSecondDiv {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .firstPhone {
+        width: 250px;
+        position: absolute;
+        bottom: 55%;
+        left: 32%;
+    }
+    .moneyIcon {
+        width: 100px;
+        height: 90px;
+        position: absolute;
+        left: 6%;
+        bottom: 75%;
+    }
+    .cardIcon {
+        width: 80px;
+        height: 100px;
+        position: absolute;
+        right: 6%;
+        bottom: 65%;
+    }
+    .messegeIcon {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 15%;
+        bottom: 55%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .homeFirstSectionFirstDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 100px 300px 100px;
+        z-index: 5;
+        position: relative;
+        gap: 20px;
+    }
+    .homeFirstSectionFirstDiv h1 {
+        font-size: 26px;
+        line-height: 28px;
+    }
+    .homeFirstSectionFirstDiv p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .homeFirstSectionSecondDiv {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .firstPhone {
+        width: 250px;
+        position: absolute;
+        bottom: 56%;
+        left: 30%;
+    }
+    .moneyIcon {
+        width: 100px;
+        height: 90px;
+        position: absolute;
+        left: 6%;
+        bottom: 75%;
+    }
+    .cardIcon {
+        width: 80px;
+        height: 100px;
+        position: absolute;
+        right: 6%;
+        bottom: 65%;
+    }
+    .messegeIcon {
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        left: 15%;
+        bottom: 55%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homeFirstSectionFirstDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 50px 300px 50px;
+        z-index: 5;
+        position: relative;
+        gap: 20px;
+    }
+    .homeFirstSectionFirstDiv h1 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .homeFirstSectionFirstDiv p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .homeFirstSectionSecondDiv {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .firstPhone {
+        width: 220px;
+        position: absolute;
+        bottom: 60%;
+        left: 24%;
+    }
+    .moneyIcon {
+        width: 80px;
+        height: 70px;
+        position: absolute;
+        left: 6%;
+        bottom: 75%;
+    }
+    .cardIcon {
+        width: 60px;
+        height: 80px;
+        position: absolute;
+        right: 6%;
+        bottom: 65%;
+    }
+    .messegeIcon {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 15%;
+        bottom: 60%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .homeFirstSectionFirstDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 50px 260px 50px;
+        z-index: 5;
+        position: relative;
+        gap: 20px;
+    }
+    .homeFirstSectionFirstDiv h1 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    .homeFirstSectionFirstDiv p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .homeFirstSectionSecondDiv {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .firstPhone {
+        width: 200px;
+        position: absolute;
+        bottom: 62%;
+        left: 26%;
+    }
+    .moneyIcon {
+        width: 80px;
+        height: 70px;
+        position: absolute;
+        left: 6%;
+        bottom: 75%;
+    }
+    .cardIcon {
+        width: 40px;
+        height: 60px;
+        position: absolute;
+        right: 6%;
+        bottom: 65%;
+    }
+    .messegeIcon {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 15%;
+        bottom: 60%;
+    }
+}

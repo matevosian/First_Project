@@ -1,0 +1,53 @@
+.stars {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.miniStarActive {
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.miniStarPassive {
+    width: 30px;
+    height: 40px;
+    cursor: pointer;
+    filter: brightness(0.4);
+    transition: .5s;
+}
+
+.miniStarActive:hover, .miniStarPassive:hover {
+    transform: scale(.85);
+}
+
+@media screen and (max-width: 1200px) {
+    .miniStarActive, .miniStarPassive {
+        width: 26px;
+        height: 36px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .miniStarActive, .miniStarPassive {
+        width: 22px;
+        height: 32px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .miniStarActive, .miniStarPassive {
+        width: 18px;
+        height: 26px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .miniStarActive, .miniStarPassive {
+        width: 14px;
+        height: 20px;
+    }
+}

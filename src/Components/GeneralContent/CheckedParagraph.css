@@ -1,0 +1,65 @@
+.checkedParagraph {
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    gap: 10px;
+    transition: .5s;
+}
+
+.checkedParagraph img {
+    width: 24px;
+    height: 24px;
+    position: static;
+}
+
+.checkedParagraph p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 49.9px;
+    color: #FFFFFF;
+}
+
+.checkedParagraph:hover{
+    transform: scale(.95);
+    opacity: .5;
+}
+
+@media screen and (max-width: 1400px) {
+    .checkedParagraph img {
+        width: 22px;
+        height: 22px;
+    }
+    .checkedParagraph p {
+        font-size: 18px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .checkedParagraph img {
+        width: 20px;
+        height: 20px;
+    }
+    .checkedParagraph p {
+        font-size: 14px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .checkedParagraph img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .checkedParagraph img {
+        width: 14px;
+        height: 14px;
+    }
+    .checkedParagraph p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+}

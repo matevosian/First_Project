@@ -1,0 +1,84 @@
+.next{
+    width: 450px;
+    height: 380px;
+    z-index: 2;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.219);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 40px;
+    color: white;
+    gap: 5px;
+    background: linear-gradient(270deg,#2316567a, rgba(137, 43, 226, 0.516), #e2b42b77, rgba(83, 128, 0, 0.495));
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    margin-bottom: 100px;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    25% {
+        background-position: 50% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+input{
+    height: 50px;
+    border-radius: 8px;
+    transition: 0.5s;
+    border: none;
+}
+
+input:hover{
+    transform: scale(0.95);
+}
+
+.button{
+    cursor: pointer;
+    background-color: #231656;
+    color: white;
+    font-weight: 800;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.button:hover{
+    transform: scale(0.95);
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.a:hover{
+    transform: scale(0.95);
+}
+
+@media screen and (max-width: 800px) {
+    .next {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .next {
+        width: 350px;
+    }
+}

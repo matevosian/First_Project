@@ -1,0 +1,118 @@
+.changelog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+.changelog .changelogContent {
+    width: 50%;
+    height: 222px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.changelogContent img {
+    width: 120px;
+    height: 120px;
+}
+
+.changelogContent h5 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 33px;
+    text-align: center;
+    color: #231656;
+}
+
+@media screen and (max-width: 1300px) {
+    .changelog .changelogContent {
+        width: 60%;
+        height: 222px;
+    }
+    .changelogContent img {
+        width: 100px;
+        height: 100px;
+    }
+    .changelogContent h5 {
+        font-size: 28px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .changelog .changelogContent {
+        width: 80%;
+        height: 222px;
+    }
+    .changelogContent img {
+        width: 80px;
+        height: 80px;
+    }
+    .changelogContent h5 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .changelog {
+        margin-bottom: 100px;
+    }
+    .changelog .changelogContent {
+        width: 500px;
+        height: 200px;
+    }
+    .changelogContent img {
+        width: 60px;
+        height: 60px;
+    }
+    .changelogContent h5 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .changelog {
+        margin-bottom: 80px;
+    }
+    .changelog .changelogContent {
+        width: 400px;
+        height: 180px;
+    }
+    .changelogContent img {
+        width: 40px;
+        height: 40px;
+    }
+    .changelogContent h5 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .changelog {
+        margin-bottom: 80px;
+    }
+    .changelog .changelogContent {
+        width: 300px;
+        height: 150px;
+    }
+    .changelogContent img {
+        width: 30px;
+        height: 30px;
+    }
+    .changelogContent h5 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+

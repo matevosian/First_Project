@@ -1,0 +1,16 @@
+.homeFivethSection {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.awards {
+    width: 45%;
+    position: static;
+}
+
+.starRating {
+    width: 45%;
+    position: static;
+}

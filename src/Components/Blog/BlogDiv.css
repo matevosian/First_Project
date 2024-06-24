@@ -1,0 +1,151 @@
+.blogDiv {
+    height: 200px;
+    display: flex;
+    gap: 20px;
+    border-radius: 30px;
+    background-color: white;
+    transition: .5s;
+} 
+
+.blogDivImg {
+    width: 200px;
+    height: 180px;
+    border-radius: 40px;
+}
+
+.blogDivFirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blogDivFirst h5 {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 4px 17px 4px 17px;
+    border-radius: 100px;
+    background-color: #E5DFF4;
+    color: #7D5FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.blogDivFirst h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+    color: #3D3269;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+.blogDivFirst div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.blogDivFirst div p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    color: #3D3269;
+}
+
+.blogDivFirst div div {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #625FFB;
+}
+
+.blogDiv:active {
+    filter: brightness(0.5);
+    background-color: rgba(0, 0, 0, 0.104);
+}
+
+.blogDiv:hover {
+    transform: scale(.9);
+}
+
+@media screen and (max-width: 1400px) {
+    .blogDiv {
+        height: 150px;
+    } 
+    .blogDivImg {
+        width: 180px;
+        height: 150px;
+    }
+    .blogDivFirst h5 {
+        width: 120px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .blogDivFirst h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .blogDivFirst div p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .blogDivFirst div div {
+        width: 10px;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .blogDiv {
+        height: 160px;
+    } 
+    .blogDivImg {
+        width: 120px;
+        height: 120px;
+    }
+    .blogDivFirst {
+        justify-content: start;
+        gap: 5px;
+    }
+    .blogDivFirst h5 {
+        width: 100px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .blogDivFirst h4 {
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .blogDivFirst div p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .blogDivFirst div div {
+        width: 10px;
+        height: 10px;
+    }
+    .blogDivFirst div div {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .blogDivFirst h5 {
+        width: 60px;
+        font-size: 8px;
+        line-height: 14px;
+    }
+    .blogDivFirst div p {
+        font-size: 6px;
+        line-height: 10px;
+    }
+    .blogDivFirst div div {
+        width: 5px;
+        height: 5px;
+    }
+}

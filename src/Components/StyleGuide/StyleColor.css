@@ -1,0 +1,72 @@
+.styleColor {
+    width: 230px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.styleColor div {
+    width: 230px;
+    height: 225px;
+    border-radius: 30px;
+}
+
+.styleColor h6 {
+    font-weight: 600;
+    line-height: 28.53px;
+    text-align: center;
+    color: #231656;
+}
+
+.styleColor p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #4E4E4E;
+}
+
+@media screen and (max-width:1200px) {
+    .styleColor {
+        width: 200px;
+        height: 280px;
+    }
+    .styleColor div {
+        width: 200px;
+        height: 190px;
+    }
+    .styleColor p {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .styleColor {
+        width: 180px;
+        height: 250px;
+    }
+    .styleColor div {
+        width: 180px;
+        height: 160px;
+    }
+    .styleColor p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .styleColor {
+        width: 130px;
+        height: 180px;
+    }
+    .styleColor div {
+        width: 130px;
+        height: 100px;
+    }
+    .styleColor p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

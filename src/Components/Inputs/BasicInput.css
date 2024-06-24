@@ -1,0 +1,51 @@
+.basicInput {
+    height: 40px;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39.7px;
+    color: #4E4E4E;
+    border: none;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    border: 2px solid rgb(207, 207, 207);
+}
+
+.basicInput:hover {
+    transform: scale(.95);
+}
+
+.basicInput:active {
+    border: 2px solid #231656;
+    color: #231656;
+}
+
+@media screen and (max-width:1300px) {
+    .basicInput {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .basicInput {
+        width: 200px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .basicInput {
+        width: 150px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .basicInput {
+        width: 116.51px;
+        height: 36.5px;
+        font-size: 12px;
+    }
+}

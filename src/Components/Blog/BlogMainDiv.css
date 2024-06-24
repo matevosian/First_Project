@@ -1,0 +1,141 @@
+.blogMainDiv {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.blogMainDivImg {
+    width: 100%;
+    height: 400px;
+    border-radius: 80px;
+}
+
+.blogMainDiv h5 {
+    width: 240px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 17px 4px 17px;
+    border-radius: 100px;
+    background-color: #E5DFF4;
+    color: #7D5FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.blogMainDiv h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: center;
+    color: #3D3269;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+.blogMainDiv div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.blogMainDiv div p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    color: #3D3269;
+}
+
+.blogMainDiv div div {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #625FFB;
+}
+
+.blogMainDiv:active {
+    filter: brightness(0.5);
+    background-color: rgba(0, 0, 0, 0.108);
+}
+
+.blogMainDiv:hover {
+    transform: scale(.95);
+}
+
+@media screen and (max-width: 1400px) {
+    .blogMainDiv {
+        height: 550px;
+    }
+    .blogMainDivImg {
+        width: 100%;
+        height: 350px;
+    }
+    .blogMainDiv h5 {
+        width: 200px;
+        height: 30px;
+        color: #7D5FFF;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .blogMainDiv h3 {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .blogMainDiv div p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .blogMainDiv {
+        height: 500px;
+    }
+    .blogMainDivImg {
+        width: 100%;
+        height: 250px;
+    }
+    .blogMainDiv h5 {
+        width: 160px;
+        height: 25px;
+        color: #7D5FFF;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blogMainDiv h3 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .blogMainDiv div p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .blogMainDivImg {
+        width: 100%;
+        height: auto;
+    }
+    .blogMainDiv h5 {
+        width: 160px;
+        height: 25px;
+        color: #7D5FFF;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .blogMainDiv h3 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .blogMainDiv div p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

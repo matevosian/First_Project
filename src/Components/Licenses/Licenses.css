@@ -1,0 +1,24 @@
+.licenses {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+}
+
+.licensesBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.licensesBox h4 {
+    color: 
+    #231656;
+}
+
+.colorWord {
+    color: #8A6FFD;
+}

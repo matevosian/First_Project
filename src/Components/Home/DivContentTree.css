@@ -1,0 +1,149 @@
+.divContentTree {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.divContentTreeFirst {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #CCCCCC;
+    padding-bottom: 20px;
+}
+
+.divContentTreeFirst div {
+    display: flex;
+    align-items: start;
+    gap: 5px;
+}
+
+.accountIcon {
+    width: 94px;
+    height: 94px;
+}
+
+.divContentTreeFirstChild {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.divContentTreeFirstChild h4 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #3D3269;
+}
+
+#divContentTreeFirstChildP{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #625FFB;
+}
+
+
+.divContentTreeFirst .star {
+    width: 25%;
+}
+
+.divContentTree .divContentTreeParagraph {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #4E4E4E;
+}
+
+@media screen and (max-width: 1200px) {
+    .accountIcon {
+        width: 80px;
+        height: 80px;
+    }
+    .divContentTreeFirstChild h4 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+    #divContentTreeFirstChildP{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .divContentTreeFirst .star {
+        width: 30%;
+    }
+    .divContentTree .divContentTreeParagraph {
+        font-size: 20px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .divContentTree .divContentTreeParagraph {
+        font-size: 10px;
+        line-height: 24px;
+    }
+    .divContentTreeFirstChild h4 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    #divContentTreeFirstChildP{
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .accountIcon {
+        width: 60px;
+        height: 60px;
+    }
+    .divContentTreeFirst .star {
+        width: 40%;
+    }
+    .divContentTreeFirstChild h4 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    #divContentTreeFirstChildP{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .divContentTree .divContentTreeParagraph {
+        font-size: 16px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .accountIcon {
+        width: 40px;
+        height: 40px;
+    }
+    .divContentTreeFirstChild h4 {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .divContentTree .divContentTreeParagraph {
+        font-size: 10px;
+        line-height: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .divContentTreeFirst {
+        align-items: start;
+        flex-direction: column;
+    }
+    .divContentTreeFirstChild h4 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+}

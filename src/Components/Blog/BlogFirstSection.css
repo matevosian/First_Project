@@ -1,0 +1,83 @@
+.blogFirstSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.blogFirstSection .first {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogFirstSection .first div {
+    width: 40%;
+}
+
+.blogFirstSection div {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.blogFirstSectionFirst {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.blogFirstSection .first h2 {
+    width: 600px;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 75.66px;
+    text-align: center;
+    color: #231656;
+}
+
+.first h2 span {
+    color: #8C8C8C;
+}
+
+@media screen and (max-width: 900px) {
+    .blogFirstSection .blogComponentDiv {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .blogFirstSection .first {
+        display: flex;
+        flex-direction: column;
+    }
+    .blogFirstSection .first h2 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blogFirstSection .first h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .blogFirstSection .first h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .blogFirstSection .first h2 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+}

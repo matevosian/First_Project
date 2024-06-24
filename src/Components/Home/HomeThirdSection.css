@@ -1,0 +1,122 @@
+.homeThirdSection {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.homeThirdSection h2 {
+    width: 50%;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 55.66px;
+    text-align: center;
+    color: #3D3269;
+}
+
+.homeThirdSectionFirstDiv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(2, 50%);
+    column-gap: 5%;
+    row-gap: 20px;
+}
+
+.homeThirdSectionFirstDivFirst {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #F8F8F8;
+    border-radius: 30px;
+    grid-column: span 2;
+}
+
+.firstChild {
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.firstChild h4 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35.42px;
+    color: #3D3269;
+}
+
+.firstChild p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #4E4E4E;
+}
+
+.applicationImg {
+    width: 40%;
+    position: static;
+}
+@media screen and (max-width: 1400px) {
+    .homeThirdSection h2 {
+        width: 60%;
+        font-size: 50px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .homeThirdSection h2 {
+        width: 60%;
+        font-size: 40px;
+        line-height: 42px;
+    }
+    .firstChild h4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .firstChild p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .homeThirdSection h2 {
+        width: 60%;
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .firstChild h4 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .firstChild p {
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .homeThirdSectionFirstDiv {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(3, auto);
+        column-gap: 5%;
+        row-gap: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .homeThirdSectionFirstDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .firstChild h4 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}

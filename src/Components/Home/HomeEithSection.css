@@ -1,0 +1,69 @@
+.homeEithSection {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.homeEithSection h2 {
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 55.66px;
+    text-align: center;
+}
+
+.homeEithSectionFirst {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1400px) {
+    .homeEithSection h2 {
+        font-size: 46px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .homeEithSection h2 {
+        font-size: 40px;
+        line-height: 42px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .homeEithSection h2 {
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .homeEithSectionFirst {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .homeEithSection h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .homeEithSection h2 {
+        font-size: 24px;
+        line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .homeEithSection h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+}
